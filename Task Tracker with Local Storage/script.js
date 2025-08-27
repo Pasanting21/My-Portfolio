@@ -19,8 +19,8 @@ function addTask() {
     input.value = '';
     renderTasks();
   }
+  console.log("waza");
 }
-
 function deleteTask(index) {
   tasks.splice(index, 1);
   renderTasks();
